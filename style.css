@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height:11vh;
+    background-color:rgb(223, 218, 211) ;
+}
+.center-box{
+    width:75vw;
+    margin: 0px auto;
+    height: 100%;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+#top-nav{
+    position: relative;
+    left:40vw;
+    top:5px;
+}
+#top-nav ul{
+    display: flex;
+    flex-direction: row;
+}
+#top-nav ul li{
+    list-style-type: none;
+}
+#top-nav ul li a{
+    text-decoration: none;
+    padding: 10px 12px;
+    font-size:25px;
+    color: rgb(121, 118, 114);
+}
+#top-nav ul li a:hover{
+    color: rgb(192, 24, 52);
+}
+section{
+    width: 100%;
+}
+#sec-1{
+    background-color:rgba(240, 240, 240, 0.459);
+}
+#sec-1 img#banner{
+    width: 85%;
+    height:500px;
+    display: block;
+    margin: 0px auto;
+}
+#sec-1 img#badge{
+    position: absolute; 
+    bottom: 220px;
+    right:440px;
+}
+#sec-1 p#fds{
+    position: absolute; 
+    bottom: 270px;
+    right:470px;
+    font-size: 30px;
+    color: white;
+}
+#sec-2{
+    background-color:rgb(223, 218, 211) ;
+}
+.applying-grid{
+    display: grid;
+    grid-template-columns:68% 32%;
+    column-gap: 10px;
+}
+div#text{
+    padding-top: 60px;
+    color: rgba(90, 84, 84, 0.733);
+}
+div#text h2{
+    font-weight: lighter;
+}
+div#text h1{
+    color: rgb(192, 24, 52);
+    margin-top:20px;
+}
+div#text p{
+    margin-top:10px;
+}
+div#text p a{
+    margin-top:5px;
+    color: rgba(90, 84, 84, 0.733);
+}
+div#img{
+    padding-bottom: 50px;
+}
+div#img img{
+    width:100%;
+}
+nav#menu{
+    background-color: rgb(195,194,26);
+    width:100%;
+    height:11vh;
+    position: fixed;
+    bottom:0px;
+}
+div.applying-grid-2{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-gap:5px;
+}
+div.items:hover{
+    background-color: rgba(243, 243, 8, 0.596);
+}
+div.items img{
+    width:50px  ;
+    height:50px;
+    margin-top: 10px;
+    display: block;
+    margin: 10px auto 0px auto;
+}
+div.items p{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+}
+
